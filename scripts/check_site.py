@@ -34,7 +34,7 @@ class Page(HTMLParser):
             self.active = None
 
 pages = {path: Page(path.read_text()) for path in ROOT.rglob('*.html')}
-assert len(pages) == 4, f'Expected homepage and three service pages, got {len(pages)}'
+assert len(pages) == 5, f'Expected homepage, three service pages, and service-area directory, got {len(pages)}'
 canonicals, titles, descriptions = set(), set(), set()
 for path, page in pages.items():
     relative = path.relative_to(ROOT).as_posix()

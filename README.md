@@ -27,12 +27,13 @@ sitemap coverage, structured-data JSON, page titles, and primary headings.
 - `dist/stump-grinding-houston/index.html`: stump grinding service page.
 - `dist/tree-removal-houston/index.html`: tree removal service page.
 - `dist/tree-trimming-houston/index.html`: tree trimming service page.
+- `dist/service-areas/index.html`: Greater Houston community directory and coverage inquiry guide.
 - `dist/styles.css` and `dist/app.js`: shared presentation and interactions.
 - `dist/robots.txt` and `dist/sitemap.xml`: crawler discovery files.
 - `.openai/hosting.json`: existing Sites project identity and static hosting directory.
 
 Edit the HTML directly. Keep shared navigation, contact details, and form behavior
-consistent across all four pages. No third-party tracking is installed.
+consistent across all five pages. No third-party tracking is installed.
 
 ## Estimate requests
 
